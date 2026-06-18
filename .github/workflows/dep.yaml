@@ -39,7 +39,7 @@ jobs:
 
           kubectl apply -f svc.yml
 
-          kubectl rollout restart deployment test-dep
+          kubectl rollout restart deployment test-dep2
 
-          kubectl rollout status deployment test-dep
+          kubectl rollout status deployment test-dep2
 
